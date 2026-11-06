@@ -1,0 +1,13 @@
+name: CrossChatBackend
+version: 1.4.0
+main: com.example.crosschatbackend.CrossChatBackend
+api-version: "1.19"
+description: >
+  Optional companion backend plugin for Crosschat.
+  Publishes PlaceholderAPI-resolved LuckPerms suffixes to the proxy over
+  crosschat:metadata. Does not touch local chat.
+authors:
+  - Ethan0892
+softdepend:
+  - PlaceholderAPI
+  - LuckPerms
